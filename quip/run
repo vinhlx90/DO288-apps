@@ -1,0 +1,1 @@
+oc new-app --name quip --as-deployment-config -i redhat-openjdk18-openshift:1.8  https://github.com/vinhlx90/DO288-apps#app-deploy --context-dir=quip --build-env MAVEN_MIROR_URL=http://${RHT_OCP4_NEXUS_SERVER}/repository/java
